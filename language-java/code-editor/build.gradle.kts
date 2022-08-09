@@ -23,6 +23,9 @@
  ******************************************************************************/
 
 plugins {
+    apply plugin: 'com.android.application'
+    apply plugin: 'com.github.dcendents.android-maven'
+    group = 'com.github.JoaoVcMl'
 }
 
 android {
