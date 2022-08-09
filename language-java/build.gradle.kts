@@ -48,6 +48,9 @@ android {
 
 dependencies {
     compileOnly(projects.editor)
+    
+    classpath 'com.android.tools.build:gradle:3.6.1'
+    classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
     implementation("androidx.annotation:annotation:1.4.0")
 
     testImplementation("junit:junit:4.13.2")
